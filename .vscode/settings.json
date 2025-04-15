@@ -1,7 +1,9 @@
 {
     "cSpell.words": [
+        "buslines",
         "busroute",
         "busstation",
-        "busstations"
+        "busstations",
+        "dotenv"
     ]
 }

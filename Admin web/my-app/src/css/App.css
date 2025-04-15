@@ -1,0 +1,27 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.dashboard {
+  display: flex;
+  flex: 1;
+}
+
+/* Default: sidebar collapsed, so content margin-left is 70px.
+   When the sidebar is hovered, content margin-left transitions to 220px.
+*/
+.content {
+  flex: 1;
+  margin-left: 70px;
+  padding: 20px;
+  overflow-y: auto;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar:hover + .content {
+  margin-left: 220px;
+}

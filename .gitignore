@@ -1,3 +1,4 @@
+echo "node_modules/" >> .gitignore
 # Ignore node_modules in all sub folders
 node_modules/
 Admin web/my-app/node_modules/

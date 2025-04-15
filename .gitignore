@@ -1,10 +1,10 @@
-# تجاهل مجلدات node_modules في جميع الأماكن
+# Ignore node_modules in all sub folders
 node_modules/
 Admin web/my-app/node_modules/
 DriverApp/DriverApp/node_modules/
 StudentApp/StudentApp/node_modules/
 
-# تجاهل الملفات الأخرى التي لا نحتاجها
+# Ignore other generated files
 .env
 .DS_Store
 *.log
